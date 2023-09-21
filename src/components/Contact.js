@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   MdLocationOn,
   MdPhone,
@@ -9,6 +9,9 @@ import {
 import Map from './Map'
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0) // Scrolls to
+  }, [])
   return (
     <div className='contact'>
       <div className='about-banner'>

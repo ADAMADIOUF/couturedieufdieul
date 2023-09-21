@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import a from "../assets/about1.png"
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0) // Scrolls to
+  }, [])
   return (
     <section className='about section-center'>
       <div className='title'>
