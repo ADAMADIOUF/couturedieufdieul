@@ -71,20 +71,24 @@ const Follow = () => {
                   <FaInstagram />
                 </span>
                 <hr />
-                <p>
-                  Restez connectés avec nous ! Suivez-nous sur Instagram pour
-                  découvrir nos dernières créations, nos coulisses et bien plus
-                  encore. Rejoignez notre communauté et partagez votre passion
-                  pour la mode avec nous. Cliquez sur 'Suivre' dès maintenant
-                  pour ne rien manquer !
-                </p>
-                <p>
-                  Plongez dans notre monde de style et de créativité en nous
-                  suivant sur Instagram. Explorez nos tendances les plus
-                  chaudes, nos inspirations de mode et nos looks exclusifs.
-                  N'oubliez pas de cliquer sur 'Suivre' pour rejoindre notre
-                  communauté de passionnés de la mode !
-                </p>
+                <div className='text-scroll-container'>
+                  <div className='text-scroll'>
+                    <p>
+                      Restez connectés avec nous ! Suivez-nous sur Instagram
+                      pour découvrir nos dernières créations, nos coulisses et
+                      bien plus encore. Rejoignez notre communauté et partagez
+                      votre passion pour la mode avec nous. Cliquez sur 'Suivre'
+                      dès maintenant pour ne rien manquer !
+                    </p>
+                    <p>
+                      Plongez dans notre monde de style et de créativité en nous
+                      suivant sur Instagram. Explorez nos tendances les plus
+                      chaudes, nos inspirations de mode et nos looks exclusifs.
+                      N'oubliez pas de cliquer sur 'Suivre' pour rejoindre notre
+                      communauté de passionnés de la mode !
+                    </p>
+                  </div>
+                </div>
               </article>
             </div>
             <div className='navigation'>
