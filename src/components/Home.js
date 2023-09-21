@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import WhatsAppButton from "./WhatsAppButton"
 import Slider from './Slider'
 import Categories from './Categories'
 import Follow from './Follow'
@@ -23,6 +24,7 @@ const Home = () => {
       <Featured/>
       <LastBanner/>
  <Background/>
+ <WhatsAppButton/>
     </div>
   )
 }
